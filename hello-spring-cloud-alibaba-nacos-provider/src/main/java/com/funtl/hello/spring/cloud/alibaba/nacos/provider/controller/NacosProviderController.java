@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @version 1.0
  */
 @RestController
-public class NacosEchoController {
+public class NacosProviderController {
 
 
     @GetMapping("/echo/{message}")
     public String echo(@PathVariable("message") String message) {
         return "Hello Nacos " +  message;
     }
-
+//
 }
