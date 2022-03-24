@@ -6,6 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
+ * .
  * Program Name: hello-springcloud-alibaba
  * Created by yanlp on 2019-11-09
  *
